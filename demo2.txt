@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class primeChecker
+{
+	public static void main(String[] args)
+	{
+		int n,c=0;
+		Scanner sc=new Scanner(System.in)
+		for(int i=2;i<=n;i++)
+		{
+			if(n%i==0)
+			{
+				c++;
+			}
+		}
+		if(c==1)
+		{
+			System.out.println("hey hpney your  number"+n+" is a prime number");
+		}
+		else
+		{
+			System.out.println("Hey honey you enterd number"+n+" is not a prime number");
+		}
+	}
+}
